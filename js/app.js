@@ -41,6 +41,7 @@ for (let i = 0; i < sections.length; i++) {
     let anchor = document.createElement("a");
     anchor.className = "menu__link";
     anchor.textContent = section.getAttribute("data-nav");
+    anchor.href = "#" + section.id
 
     let listItem  = document.createElement("li");
     listItem.append(anchor);
