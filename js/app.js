@@ -46,8 +46,6 @@ for (let i = 0; i < sections.length; i++) {
     listItem.append(anchor);
     navbarList.append(listItem);
 
-
-
 }
 
 
